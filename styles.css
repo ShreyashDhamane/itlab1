@@ -1,0 +1,269 @@
+body {
+  background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.navbar {
+  font-size: 35px;
+  color: white;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar b {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner-navbar {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  margin-top: 15px;
+  color: #ffffff;
+}
+
+.inner-left-container {
+  flex: 1;
+  margin-right: 15px;
+  height: 660px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.inner-right-container {
+  flex: 3;
+  margin-left: 0px;
+  overflow-y: scroll;
+  position: relative;
+  height: 660px;
+}
+
+.list-item {
+  color: #461257;
+  text-shadow: 1px 1px 2px wheat, 0 0 1em wheat, 0 0 0.2em wheat;
+  margin: 10px 0px;
+  font-weight: 600;
+}
+
+ol {
+  padding-top: 55px;
+  padding-left: 0;
+  display: table;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+ol li {
+  list-style-type: none;
+}
+
+#heading-container {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+#heading-container-text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#heading-container-text h1 {
+  margin: 0;
+}
+
+#sitcom-content {
+  display: flex;
+}
+
+#sitcom-img {
+  border-radius: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 35px;
+  width: 200px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  flex: 1;
+}
+
+#sitcom-title {
+  padding: 15px 0px;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  color: #461257;
+  text-shadow: 1px 1px 2px wheat, 0 0 1em wheat, 0 0 0.2em wheat;
+}
+
+#sitcom-title:hover {
+  text-shadow: none;
+}
+
+#sitcom-title-link {
+  text-decoration: none;
+}
+
+#trailer-container {
+  display: flex;
+  align-items: center;
+}
+
+#sitcom-trailer {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  width: 65rem;
+  height: 35rem;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+#sitcom-desc {
+  color: black;
+  margin: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 25px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  flex: 3;
+}
+
+#sitcom-cast {
+  margin: 35px;
+  margin-top: 0;
+  border-radius: 5px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+#sitcom-cast h1 {
+  color: white;
+  margin: 10px;
+  margin-top: 0;
+}
+
+#sitcom-cast a {
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+.grid > article {
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.grid > article img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+}
+.text {
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+.sub-text {
+  text-align: center;
+  margin: 0;
+  color: wheat;
+  opacity: 0.5;
+}
+
+article {
+  border-radius: 5px;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+li:hover {
+  border: 2px solid #461257;
+  cursor: pointer;
+}
+
+#main-title {
+  color: #461257;
+  font-weight: 600;
+  color: #461257;
+  text-shadow: 1px 1px 2px wheat, 0 0 1em wheat, 0 0 0.2em wheat;
+}
+#main-title:hover {
+  color: #461257;
+}
+
+.border-color-class {
+  border: 2px solid #461257;
+}
+
+#style-7::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+#style-7::-webkit-scrollbar {
+  width: 10px;
+}
+
+#style-7::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(70, 18, 87)),
+    color-stop(0.72, rgb(73, 125, 189)),
+    color-stop(0.86, rgb(73, 125, 189))
+  );
+}
+
+.awesome-text {
+  color: #461257;
+  text-shadow: 1px 1px 2px wheat, 0 0 1em wheat, 0 0 0.2em wheat;
+}
+
+#sitcom-cast-anchor-tag h1 {
+  color: #461257;
+  text-shadow: 1px 1px 2px wheat, 0 0 1em wheat, 0 0 0.2em wheat;
+}
+
+article h3 {
+  color: #461257;
+  text-shadow: 1px 1px 2px wheat, 0 0 1em wheat, 0 0 0.2em wheat;
+}
